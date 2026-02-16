@@ -118,15 +118,6 @@ Passwords are hashed using bcrypt before storing to ensure secure authentication
 
 ---
 
-## 📌 Future Improvements
-
-- JWT authentication
-- Database integration
-- Session management
-- Input validation
-- Password reset functionality
-
----
 
 ## 👨‍💻 Author
 
