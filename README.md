@@ -70,9 +70,21 @@ npm install
 Create a `.env` file in the root directory:
 
 
+
+Session
+
 ```
-PORT=3000
-SECRET_KEY=your_secret_key
+SESSION_SECRET=your_session_secret
+```
+
+PostgreSQL Database
+
+```
+PG_USER=your_database_user
+PG_HOST=localhost
+PG_DATABASE=your_database_name
+PG_PASSWORD=your_database_password
+PG_PORT=5432
 ```
 
 ---
