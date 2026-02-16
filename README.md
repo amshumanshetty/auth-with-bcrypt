@@ -26,16 +26,24 @@ A secure authentication system built using Node.js that implements user registra
 ---
 
 ## 📁 Project Structure
-```
+```bash
 auth-with-bcrypt/
 │
-├── views/
-├── public/
-├── partials/
-├── css/
-├── index.js
+├── public/          # Static files (CSS, images, client JS)
+│   └── css/
+│
+├── views/           # EJS templates
+│   ├── partials/
+│   ├── home.ejs
+│   ├── login.ejs
+│   ├── register.ejs
+│   └── secrets.ejs
+│
+├── index.js         # Main server file
 ├── package.json
+├── .env.example
 ├── .gitignore
+└── README.md
 ```
 
 ---
