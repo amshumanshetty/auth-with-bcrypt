@@ -52,16 +52,16 @@ git clone https://github.com/amshumanshetty/auth-with-bcrypt.git
 Navigate into project:
 
 
-
+```
 cd auth-with-bcrypt
-
+```
 
 Install dependencies:
 
-
+```
 
 npm install
-
+```
 
 ---
 
@@ -70,26 +70,26 @@ npm install
 Create a `.env` file in the root directory:
 
 
-
+```
 PORT=3000
 SECRET_KEY=your_secret_key
-
+```
 
 ---
 
 ## ▶️ Run the Application
 
 
-
+```
 npm start
-
+```
 
 or
 
 
-
+```
 node index.js
-
+```
 
 ---
 
