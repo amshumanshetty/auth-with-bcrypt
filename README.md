@@ -26,7 +26,7 @@ A secure authentication system built using Node.js that implements user registra
 ---
 
 ## 📁 Project Structure
-
+```
 auth-with-bcrypt/
 │
 ├── views/
@@ -36,7 +36,7 @@ auth-with-bcrypt/
 ├── index.js
 ├── package.json
 ├── .gitignore
-
+```
 
 ---
 
