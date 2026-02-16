@@ -27,3 +27,90 @@ A secure authentication system built using Node.js that implements user registra
 
 ## 📁 Project Structure
 
+auth-with-bcrypt/
+│
+├── views/
+├── public/
+├── partials/
+├── css/
+├── index.js
+├── package.json
+├── .gitignore
+
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+
+
+git clone https://github.com/amshumanshetty/auth-with-bcrypt.git
+
+
+Navigate into project:
+
+
+
+cd auth-with-bcrypt
+
+
+Install dependencies:
+
+
+
+npm install
+
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory:
+
+
+
+PORT=3000
+SECRET_KEY=your_secret_key
+
+
+---
+
+## ▶️ Run the Application
+
+
+
+npm start
+
+
+or
+
+
+
+node index.js
+
+
+---
+
+## 🔒 Security
+
+Passwords are hashed using bcrypt before storing to ensure secure authentication practices.
+
+---
+
+## 📌 Future Improvements
+
+- JWT authentication
+- Database integration
+- Session management
+- Input validation
+- Password reset functionality
+
+---
+
+## 👨‍💻 Author
+
+Amshuman Shetty
+
+GitHub: https://github.com/amshumanshetty
