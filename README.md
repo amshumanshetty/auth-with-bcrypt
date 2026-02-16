@@ -52,7 +52,6 @@ auth-with-bcrypt/
 
 Clone the repository:
 
-
 ```
 git clone https://github.com/amshumanshetty/auth-with-bcrypt.git
 ```
